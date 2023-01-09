@@ -1,0 +1,118 @@
+body {
+  line-height: 1.5;
+}
+.Tabs {
+  border-radius: 60% 70% 70% 60% / 20%; /* creates a hexagon shape */
+  width: 97%;
+  float: left;
+  color: black;
+  font-size: 16px;
+  padding: 35px 20px;
+  border: 3px solid #ddd;
+  background-color: #293442;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 30px;
+  border-color: #444654;  /* Change the color of the border to red */
+ /*  border: 50px solid; /* specify a solid border with a width of 10px */
+ /* border-image: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/Deep-Learning-vs/*-Machine-Learning.jpg) 30 30 round; /* use image.jpg as the border image */ 
+ display: block; /* This is required to make the margin property work */
+
+}
+.Tabs input {
+ 
+
+}
+#HOME{
+  margin-left: 450px;
+  background-color: #ddd;
+  cursor: pointer;
+  width: 120px; 
+  height: 50px;
+  border-radius: 30%;
+}
+
+#Tab1{
+  margin: 0px 0px 0px 20px ; /* Centers the button horizontally */ 
+  background-color: #ddd;
+  cursor: pointer;
+  width: 120px;  
+  height: 50px;
+  border-radius: 30%;
+}
+
+#Tab2{
+  margin: 0px 0px 0px 20px ; /* Centers the button horizontally */ 
+   background-color: #ddd;
+  cursor: pointer;
+  width: 120px; 
+  height: 50px;
+   border-radius: 30%;
+}
+
+#Tab3{
+  margin: 0px 0px 0px 20px ; /* Centers the button horizontally */ 
+   background-color: #ddd;
+  cursor: pointer;
+  width: 100px; 
+  height: 50px;
+   border-radius: 30%;
+}
+
+.Photo_Text{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  margin-top: 10px;
+  margin-left: -25px;
+  
+}
+.Sing{
+  color:#297296;
+}
+.Photo{
+  clip-path: circle(50%); /* or "circle(25px)" */
+  width: 260px;
+  height: 180px;
+  object-fit: cover; /* or "contain" */
+
+  
+}
+
+.h2{
+  position: right;
+  
+}
+
+.Text1{
+   font-family: cursive;   /* from google font-family: 'Josefin Sans' ,cursive;*/
+}
+li {
+   font-family: cursive;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+ul {
+  margin-top: 30px;
+  list-style: square inside;
+  font-family: cursive;
+  color: #202124;
+  font-size: 16;
+  font-weight:500;
+}
+
+.h4Tab2{
+  
+  text-align: center;
+  
+}
+
+.Photo1{
+  
+}
